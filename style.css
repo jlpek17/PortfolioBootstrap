@@ -1,0 +1,191 @@
+/* CSS PORTFOLIO BOOTSTRAP 
+========================== */
+
+/* Color Detail
+/* Color Theme Swatches in Hex */
+.Fashion-1-hex { color: #083A59; }
+.Fashion-2-hex { color: #0D4C73; }
+.Fashion-3-hex { color: #8C513B; }
+.Fashion-4-hex { color: #BF8069; }
+.Fashion-5-hex { color: #D9A38F; }
+
+/* Color Theme Swatches in RGBA */
+.Fashion-1-rgba { color: rgba(8, 58, 89, 1); }
+.Fashion-2-rgba { color: rgba(12, 75, 114, 1); }
+.Fashion-3-rgba { color: rgba(140, 80, 58, 1); }
+.Fashion-4-rgba { color: rgba(191, 128, 105, 1); }
+.Fashion-5-rgba { color: rgba(216, 162, 143, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Fashion-1-hsla { color: hsla(202, 83, 19, 1); }
+.Fashion-2-hsla { color: hsla(202, 80, 24, 1); }
+.Fashion-3-hsla { color: hsla(16, 40, 39, 1); }
+.Fashion-4-hsla { color: hsla(16, 40, 58, 1); }
+.Fashion-5-hsla { color: hsla(16, 49, 70, 1); }
+
+
+
+
+/* NAVBAR 
+=========*/
+
+
+.bg-body-tertiary {
+    background-color: rgba(8, 58, 89, 1)!important;
+}
+
+.navbar {
+    /* padding: 0; */
+    margin: 1rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: white;
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+}
+
+.fa-solid {
+    color: rgba(191, 128, 105, 1);
+    font-size: 3rem;
+    border-bottom: 2px solid rgba(191, 128, 105, 1);
+}
+
+.nav-link {
+    color: white;
+    font-size: 2.5rem;
+}
+
+a, .nav-link:hover {
+    color: rgba(191, 128, 105, 1);
+}
+.nav-link, .fa-solid:hover {
+    color: white;
+}
+
+.navbar, span {
+    color: white;
+}
+
+.navbar-toggler-icon {
+font-size: 1rem;
+color: white;
+}
+
+
+
+/* HERO
+======= */
+
+.hero {
+    padding: 1rem;
+}
+
+#sociaLink {
+}
+
+#about {
+    padding-right: 1rem;
+    padding-left: 0rem;
+}
+
+#sociaLink {
+    padding:0;
+}
+
+#sociaLink a {
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgba(8, 58, 89, 1);
+    color: white;
+}
+
+.carousel-caption {
+background-color: rgba(8, 58, 89, 1);
+}
+
+.btn {
+background-color: rgba(191, 128, 105, 1);
+border-color: rgba(191, 128, 105, 1);
+margin: 0.5rem;
+}
+
+#techno, i {
+    text-decoration: none;
+    font-size: 3rem;
+    /* letter-spacing: 1.5rem; */
+}
+
+.iconOtherColor {
+    color: rgba(12, 75, 114, 1);
+}
+
+.heroPhoto {
+    background-image: linear-gradient(rgba(8, 58, 89, 0.5), rgba(216, 162, 143, 0.4)), url(ressources/photoTitle2-unsplash.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.titleSelection, h3 {
+margin-top: 0em;
+height: 3em;
+background-color: rgba(8, 58, 89, 1);
+font-size: 1.3em;
+text-transform: uppercase;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/* COLLABORATION
+================ */
+
+.card.mb-3 {
+    max-width: 540px;
+}
+
+/* CONTACT
+========== */
+
+#contactCard a {
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#contactCard i {
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#contactCard {
+    font-size: 1.5em;
+}
+
+/* FOOTER
+=========*/
+
+#copyright {
+    opacity: 0.3;
+    font-size: 1em;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+nav .container-fluid {
+    flex-direction: column;
+}
+    
+}
