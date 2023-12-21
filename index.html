@@ -23,26 +23,26 @@
             <div class="container-fluid">
                 <nav class="navbar bg-body-tertiary" id="navbarBG">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img src="ressources/logo_JLDP.png" alt="Logo" width="200" height="200"
+                        <a class="navbar-brand" id="logoNavbar">
+                            <img src="ressources/logo_JLDP2.png" alt="Logo" height="150"
                                 class="d-inline-block align-text-center">
                         </a>
                     </div>
                 </nav>
-                <!-- Burger Button
-              ================== -->
+                <!-- BURGER BUTTON
+              ==================== -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav"> <!-- Connect Element to Hamburger -->
-                    <!-- 
-                ================ -->
-                    <div class="navbar-nav ms-auto" id="navbarLink">
-                        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-user pb-2"></i>&nbsp;</a>
-                        <a class="nav-link" href="#">Parcours</a>
-                        <a class="nav-link" href="#">Projets</a>
-                        <a class="nav-link" href="">Contact</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto text-center align-items-center" id="navbarLink">
+                        <a class="nav-link" href="navbar" aria-current="page"><i
+                                class="fa-solid fa-user pb-2 fa-3x"></i>&nbsp;</a>
+                        <a class="nav-link" href="#hero">Parcours</a>
+                        <a class="nav-link" href="#collaboration">Collaboration</a>
+                        <a class="nav-link" href="#projects">Projets</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </div>
                 </div>
             </div>
@@ -52,57 +52,61 @@
         <!-- HERO
         ========= -->
         <section class="hero">
-            <div class="container-fluid">
-                <div class="row d-flex align-items-center"> <!-- leftSide photo -->
-                    <div class="col-md-1 d-flex flex-row flex-md-column justify-content-center align-content-end"
-                        id="sociaLink">
-                        <a class="text-center" href="https://www.linkedin.com/in/jlpek17" target="_blank">
-                            <i class="fa-brands fa-linkedin"></i></a><br>
-                        <a class="text-center" href="https://github.com/jlpek17" target="_blank">
-                            <i class="fa-brands fa-github"></i></a>
-                    </div>
-                    <div class="col-md-5" id="about"> <!-- middleSide photo -->
-                        <h1 class="text-center pt-5">JE VOUS DONNE UN ACCÈS SIMPLIFIÉ AUX TECHNOLOGIES WEB</h1>
-                        <div class="accordion pt-5" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        LOREM IPSUM
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <strong>Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing elit.
-                                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-                                        et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-                                        quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
-                                        arcu.
+            <div class="container-fluid justify-content-center about">
+                <div class="backgroundWrap">
+                    <div class="row" id="photoBackground">
+                        <!-- SUB-HERO LEFT -->
+                        <div class="col-md-1 d-flex flex-row flex-md-column justify-content-center align-content-end"
+                            id="sociaLink">
+                            <a class="text-center" href="https://www.linkedin.com/in/jlpek17" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i></a><br>
+                            <a class="text-center" href="https://github.com/jlpek17" target="_blank">
+                                <i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <!-- SUB-HERO MIDDLE -->
+                        <div class="col-md-11 p-5" id="about">
+                            <h1 class="text-center pt-5">JE VOUS DONNE UN ACCÈS SIMPLIFIÉ AUX TECHNOLOGIES WEB</h1>
+                            <div class="row d-flex justify-content-center">
+                                <div class="accordion pt-5" id="accordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                LOREM IPSUM
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            data-bs-parent="#accordion">
+                                            <div class="accordion-body">
+                                                <strong>Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing
+                                                elit.
+                                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                                                penatibus
+                                                et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                                                felis,
+                                                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
+                                                quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
+                                                arcu.
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row pt-5">
-                            <div class="col-md 6 d-flex justify-content-center">
-                                <button type="button" class="btn btn-primary btn-lg">Telecharger mon CV</button>
+                            <div class="row md-6 pt-5 justify-content-center">
+                                <button type="button" class="btn  btn-lg">Mon CV</button>
+                                <button type="button" class="btn  btn-lg">Me Contacter</button>
                             </div>
-                            <div class="col-md-6 d-flex justify-content-center">
-                                <button type="button" class="btn btn-primary btn-lg">Me Contacter</button>
+                            <div class="row md-4 d-flex justify-content-center" id="techno">
+                                <p class="d-flex justify-content-center flex-wrap">
+                                    <i class="bi bi-filetype-html"></i>
+                                    <i class="bi bi-filetype-css iconOtherColor"></i>
+                                    <i class="bi bi-filetype-js"></i>
+                                    <i class="bi bi-filetype-php iconOtherColor"></i>
+                                    <i class="bi bi-filetype-py"></i>
+                                </p>
                             </div>
                         </div>
-                        <div class="row pt-4" id="techno">
-                            <p class="d-flex justify-content-center">
-                                <i class="bi bi-filetype-html"></i>
-                                <i class="bi bi-filetype-css iconOtherColor"></i>
-                                <i class="bi bi-filetype-js"></i>
-                                <i class="bi bi-filetype-php iconOtherColor"></i>
-                                <i class="bi bi-filetype-py"></i>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 d-flex align-content-center heroPhoto"> <!-- rightSide photo -->
                     </div>
                 </div>
             </div>
@@ -110,11 +114,13 @@
 
         <!-- Collaboration
         ================== -->
-        <section class="titleSection">
-            <h3>Collaboration</h3>
+        <section id="collaboration">
+            <div class="row titleSection text-center">
+                <h3>Collaboration</h3>
+            </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 d-flex justify-content-center" id="macif">
+                    <div class="col-md-6 d-flex justify-content-center logoCollaboration" id="macif">
                         <figure class="figure">
                             <img src="ressources/svgtopng/MACIF.png" class="figure-img img-fluid rounded" alt="...">
                             <figcaption class="figure-caption d-flex justify-content-center">
@@ -122,7 +128,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center" id="arinfo">
+                    <div class="col-md-6 d-flex justify-content-center logoCollaboration" id="arinfo">
                         <figure class="figure">
                             <img src="ressources/svgtopng/ARINFO.png" class="figure-img img-fluid rounded" alt="...">
                             <figcaption class="figure-caption d-flex justify-content-center">
@@ -135,14 +141,15 @@
 
         </section>
 
-        <!-- Mes Projets
+        <!-- Projects
         ================== -->
-        <section class="title">
-            <h3>Projets</h3>
-
-            <!-- Caroussel Photo Projet
+        <section id="projects">
+            <div class="row titleSection text-center">
+                <h3>Projets</h3>
+            </div>
+            <!-- Caroussel Photo Projects
             =========================== -->
-            <div class="container">
+            <div class="container p-5">
                 <div id="carouselPhotoProject" class="carousel container-md w-75 slide carousel-fade"
                     data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -189,25 +196,30 @@
                 </div>
             </div>
         </section>
-        <section>
-            <h3>Contact</h3>
+
+        <!-- CONTACT 
+============ -->
+        <section id="contact">
+            <div class="row titleSection text-center">
+                <h3>Contact</h3>
+            </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 mb-6 mb-sm-0">
-                        <div class="card">
-                            <div class="card-body d-flex justify-content-around" id="contactCard">
-                                <div class="row">
-                                <a href="tel:06.63.19.65.39">06.63.19.65.39&nbsp;(<i class="fa-solid fa-mobile-retro"
-                                        aria-hidden="true"></i>)</a>
-                                <a href="mailto:jlpek17@gmail.com">jlpek17@gmail.com&nbsp;(<i
-                                        class="fa-solid fa-envelope" aria-hidden="true"></i>)</a>
-                                </div>
-                                <div class="row">
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
+                <div class="card p-3">
+                    <div class="col-md-6 text-center contactCard">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="tel:06.63.19.65.39">06.63.19.65.39&nbsp;<i class="fa-solid fa-mobile-retro"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="mailto:jlpek17@gmail.com">jlpek17@gmail.com&nbsp;<i
+                                        class="fa-solid fa-envelope" aria-hidden="true"></i></a>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-md-6 contactButtonFooter">
+                        <a href="#" class="btn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="btn"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </div>
