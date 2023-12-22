@@ -1,7 +1,8 @@
 /* CSS PORTFOLIO BOOTSTRAP 
 ========================== */
 
-/* Color Detail
+/* Color Stock : */
+
 /* Color Theme Swatches in Hex */
 .Fashion-1-hex { color: #083A59; }
 .Fashion-2-hex { color: #0D4C73; }
@@ -15,15 +16,6 @@
 .Fashion-3-rgba { color: rgba(140, 80, 58, 1); }
 .Fashion-4-rgba { color: rgba(191, 128, 105, 1); }
 .Fashion-5-rgba { color: rgba(216, 162, 143, 1); }
-
-/* Color Theme Swatches in HSLA */
-.Fashion-1-hsla { color: hsla(202, 83, 19, 1); }
-.Fashion-2-hsla { color: hsla(202, 80, 24, 1); }
-.Fashion-3-hsla { color: hsla(16, 40, 39, 1); }
-.Fashion-4-hsla { color: hsla(16, 40, 58, 1); }
-.Fashion-5-hsla { color: hsla(16, 49, 70, 1); }
-
-
 
 
 /* NAVBAR 
