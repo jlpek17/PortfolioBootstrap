@@ -38,7 +38,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="navbar-nav ms-auto text-center align-items-center" id="navbarLink">
                         <a class="nav-link" href="navbar" aria-current="page"><i
-                                class="fa-solid fa-user pb-2 fa-3x"></i>&nbsp;</a>
+                                class="fa-solid fa-user pb-2 fa-2x"></i>&nbsp;</a>
                         <a class="nav-link" href="#hero">Parcours</a>
                         <a class="nav-link" href="#collaboration">Collaboration</a>
                         <a class="nav-link" href="#projects">Projets</a>
@@ -65,7 +65,7 @@
                         </div>
                         <!-- SUB-HERO MIDDLE -->
                         <div class="col-md-11 p-5" id="about">
-                            <h1 class="text-center pt-5">JE VOUS DONNE UN ACCÈS SIMPLIFIÉ AUX TECHNOLOGIES WEB</h1>
+                            <h1 class="text-center pt-3">JE VOUS DONNE UN ACCÈS SIMPLIFIÉ AUX TECHNOLOGIES WEB</h1>
                             <div class="row d-flex justify-content-center">
                                 <div class="accordion pt-5" id="accordion">
                                     <div class="accordion-item">
@@ -73,31 +73,33 @@
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseOne" aria-expanded="true"
                                                 aria-controls="collapseOne">
-                                                LOREM IPSUM
+                                                En savoir plus :
                                             </button>
                                         </h2>
                                         <div id="collapseOne" class="accordion-collapse collapse show"
                                             data-bs-parent="#accordion">
-                                            <div class="accordion-body">
-                                                <strong>Lorem ipsum</strong> dolor sit amet, consectetuer adipiscing
-                                                elit.
-                                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-                                                penatibus
-                                                et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-                                                felis,
-                                                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-                                                quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
-                                                arcu.
+                                            <div class="accordion-body" id="apropos">
+                                                <p><code>Juriste de formation initiale, mon parcours professionnel m'a conduit
+                                                    à me former au <strong>Developpement Web et Web Mobile</strong>.
+                                                    Actuellement en poste dans la direction informatiques d'une grande
+                                                    entreprise j'ai pu
+                                                    acquerir une précieuse experience que je vous propose de mettre à
+                                                    votre service.
+                                                    J'utilise régulierement le HTML/CSS, JavaScript (REACT, ModernUI,
+                                                    Google Apps Script), PHP (Frameworks Laravel et Symfoni).</code>
+                                                </p>
+                                                <p class="text-end"><i>... La Simplicité consiste à mettre <br>de
+                                                        l'ordre dans la complexité ...</i></p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row md-6 pt-5 justify-content-center">
-                                <button type="button" class="btn  btn-lg">Mon CV</button>
-                                <button type="button" class="btn  btn-lg">Me Contacter</button>
+                                <button type="button" onclick="window.open('ressources/myCV.pdf')" class="btn">Mon CV</button>
+                                <button type="button" onclick="window.location.href='#contact';" class="btn">Me Contacter</button>
                             </div>
-                            <div class="row md-4 d-flex justify-content-center" id="techno">
+                            <div class="row md-4 pt-5 d-flex justify-content-center" id="techno">
                                 <p class="d-flex justify-content-center flex-wrap">
                                     <i class="bi bi-filetype-html"></i>
                                     <i class="bi bi-filetype-css iconOtherColor"></i>
@@ -115,10 +117,12 @@
         <!-- Collaboration
         ================== -->
         <section id="collaboration">
-            <div class="row titleSection text-center">
-                <h3>Collaboration</h3>
+            <div class="container-fluid">
+                <div class="row titleSection text-center">
+                    <h3>Collaboration</h3>
+                </div>
             </div>
-            <div class="container">
+            <div class="container p-5">
                 <div class="row">
                     <div class="col-md-6 d-flex justify-content-center logoCollaboration" id="macif">
                         <figure class="figure">
@@ -144,8 +148,10 @@
         <!-- Projects
         ================== -->
         <section id="projects">
-            <div class="row titleSection text-center">
-                <h3>Projets</h3>
+            <div class="container-fluid">
+                <div class="row titleSection text-center">
+                    <h3>Projets</h3>
+                </div>
             </div>
             <!-- Caroussel Photo Projects
             =========================== -->
@@ -176,7 +182,7 @@
                             </div>
                         </div>
                         <div class="carousel-item d-flex justify-content-center" data-bs-interval="2000">
-                            <img src="ressources/CaptureSitePortfolio.jpg" class="d-block w-100" alt="...">
+                            <img src="ressources/CaptureSitePortfolio3.png" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Portfolio</h5>
                                 <p>3e Creation</p>
@@ -198,37 +204,32 @@
         </section>
 
         <!-- CONTACT 
-============ -->
+        ============ -->
         <section id="contact">
-            <div class="row titleSection text-center">
-                <h3>Contact</h3>
+            <div class="container-fluid">
+                <div class="row titleSection text-center">
+                    <h3>Contact</h3>
+                </div>
             </div>
             <div class="container">
-                <div class="card p-3">
-                    <div class="col-md-6 text-center contactCard">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="tel:06.63.19.65.39">06.63.19.65.39&nbsp;<i class="fa-solid fa-mobile-retro"
-                                        aria-hidden="true"></i></a>
-                            </div>
-                            <div class="col-md-6">
-                                <a href="mailto:jlpek17@gmail.com">jlpek17@gmail.com&nbsp;<i
-                                        class="fa-solid fa-envelope" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
+                <div class="row p-4 d-flex justify-content-center align-content-center">
+                    <div class="col-md-6 d-flex flex-column justify-content-center md text-center contactCard">
+                        <a href="tel:06.63.19.65.39"><i class="fa-solid fa-mobile-screen"></i>&nbsp;06.63.19.65.39</a>
+                        <a href="mailto:jlpek17@gmail.com"><i
+                                class="fa-solid fa-envelope"></i>&nbsp;jlpek17@gmail.com</a>
                     </div>
-                    <div class="col-md-6 contactButtonFooter">
-                        <a href="#" class="btn"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#" class="btn"><i class="fa-brands fa-github"></i></a>
+                    <div class="col-md-6 d-flex justify-content-start networkCard">
+                        <a href="https://www.linkedin.com/in/jlpek17" class="btn btnFoot"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/jlpek17" class="btn btnFoot"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </div>
         </section>
-
     </main>
     <footer class="footer mt-auto py-3 bg-body-tertiary">
         <div class="container-fluid text-center">
-            <span class="text-light" id="copyright">Copyright jlpek17 2023.</span>
+            <span class="text-light" id="copyright">Copyright jlpek17 2023. Mentions Legales.</span>
         </div>
     </footer>
 

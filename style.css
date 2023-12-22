@@ -48,14 +48,11 @@
     text-transform: uppercase;
 }
 
-#logoNavbar {
-
-}
 
 /* HOME BUTON */
 .fa-solid {
     color: rgba(191, 128, 105, 1);
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     border-bottom: 2px solid rgba(191, 128, 105, 1);
 }
 
@@ -101,15 +98,12 @@ color: white;
     padding-left: 0rem;
 }
 
-#sociaLink {
-    padding-left: 2rem;
-}
-
 #sociaLink a {
     padding: 1rem;
     text-decoration: none;
     color: black;
-    font-size: 5rem;
+    font-size: 6rem;
+    z-index: 1;
 }
 
 /* SUB-HERO MIDDLE
@@ -125,12 +119,27 @@ color: white;
     color: white;
 }
 
+#apropos code {
+    font-size: 1.3rem;
+    color: black; 
+}
+
+#apropos {
+    font-size: 1.1rem;
+    color: black; 
+}
+
+
 
 .btn {
-background-color: rgba(191, 128, 105, 1);
-border-color: rgba(191, 128, 105, 1);
-margin: 0.5rem;
-z-index: 1;
+    background-color: rgba(191, 128, 105, 1);
+    border-color: rgba(191, 128, 105, 1);
+    margin: 0.5rem;
+    z-index: 1;
+    min-width: 175px;
+    width: 15%;
+    font-size: 1.2rem;
+    font-weight: 700;;
 }
 
 .btn:hover {
@@ -188,6 +197,7 @@ text-transform: uppercase;
 color: white;
 display: flex;
 align-content: center;
+margin: 0;
 }
 
 
@@ -195,7 +205,7 @@ align-content: center;
 ================ */
 
 .logoCollaboration {
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .card.mb-3 {
@@ -206,7 +216,7 @@ align-content: center;
 ========== */
 
 .carousel-caption {
-    background-color: rgba(8, 58, 89, 0.3);
+    background-color: rgba(8, 58, 89, 0.4);
     bottom: 0.5rem;
     }
     
@@ -221,6 +231,7 @@ align-content: center;
 
 .contactCard, a {
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 .contactCard i {
@@ -228,9 +239,9 @@ align-content: center;
     font-size: 1.5rem;
 }
 
-
-.contactButtonFooter i {
+.btnFoot {
     font-size: 2.5em;
+    min-width: 125px;
 }
 
 
@@ -249,7 +260,6 @@ align-content: center;
 
 nav .container-fluid {
     flex-direction: column;
-}
 
-    
+}
 }
