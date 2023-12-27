@@ -125,7 +125,6 @@ color: white;
 
 .btn {
     background-color: rgba(191, 128, 105, 1);
-    border-color: rgba(191, 128, 105, 1);
     margin: 0.5rem;
     z-index: 1;
     min-width: 175px;
